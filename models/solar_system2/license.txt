@@ -1,0 +1,11 @@
+Model Information:
+* title:	Solar System
+* source:	https://sketchfab.com/3d-models/solar-system-b5e87ff7466840df807b585f125ede51
+* author:	hazereir (https://sketchfab.com/hazereir)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Solar System" (https://sketchfab.com/3d-models/solar-system-b5e87ff7466840df807b585f125ede51) by hazereir (https://sketchfab.com/hazereir) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

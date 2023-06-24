@@ -1,0 +1,91 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+
+.description_left {
+  position: relative;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 7%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.description_left h1, .description_right h1 {
+  color: gold;
+  font-size: 4rem;
+  text-shadow: 0px 0px 20px gold;
+}
+
+.description_left h3 {
+  color: rgb(10, 49, 223);
+  font-size: 2.5rem;
+  text-shadow: 0px 0px 20px rgb(10, 49, 223);
+  margin-top: -40px;
+}
+
+.description_left p, .description_right p {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 20px white;
+}
+
+.description_right {
+  position: relative;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 50%;
+  margin-bottom: 7%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.description_left .content .year, .description_right .content .year {
+  color: rgb(9, 230, 9);
+  text-shadow: 0px 0px 20px rgb(9, 230, 9);
+}
+
+.description_left .content h4, .description_right .content h4 {
+  color: rgb(82, 19, 184);
+  text-shadow: 0px 0px 20px rgb(82, 19, 184);
+}
+
+.description_left .stack {
+  color: rgb(82, 19, 184);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-shadow: 0px 0px 20px rgb(82, 19, 184);
+}
+
+.description_left .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description_left .skill {
+  display: flex;
+  align-items: center;
+}
+
+.description_left .skill span {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
+
+
