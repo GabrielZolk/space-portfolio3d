@@ -51,28 +51,29 @@ scene.background = spaceTexture;
 // moon.position.set(30, 0, 0);
 
 const loader = new GLTFLoader();
+const baseUrl = process.env.PUBLIC_URL || '';
 
-loader.load('./models/solar_system2/scene.gltf', function (gltf) {
+loader.load(baseUrl + '/models/solar_system2/scene.gltf', function (gltf) {
   const solarSystem = gltf.scene;
   scene.add(solarSystem);
   solarSystem.position.set(-10, 0, 0);
 });
 
-loader.load('./models/rocket/scene.gltf', function (gltf) {
+loader.load(baseUrl + '/models/rocket/scene.gltf', function (gltf) {
   const rocket = gltf.scene;
   scene.add(rocket);
   rocket.position.set(-32, -10, 25);
   rocket.rotation.x = 5;
 });
 
-loader.load('./models/cartoon_rocket/scene.gltf', function (gltf) {
+loader.load(baseUrl + '/models/cartoon_rocket/scene.gltf', function (gltf) {
   const cartooRocket = gltf.scene;
   scene.add(cartooRocket);
   cartooRocket.position.set(-20, 20, 25);
   cartooRocket.rotation.x = 10;
 });
 
-loader.load('./models/astronaut_swimming/scene.gltf', function (gltf) {
+loader.load(baseUrl + '/models/astronaut_swimming/scene.gltf', function (gltf) {
   const astronaut = gltf.scene;
   scene.add(astronaut);
   astronaut.position.set(-10, -10, 150);
