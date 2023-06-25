@@ -21,7 +21,8 @@ canvas {
   border-radius: 8px;
 }
 
-.description_left h1, .description_right h1 {
+.description_left h1,
+.description_right h1 {
   color: gold;
   font-size: 4rem;
   text-shadow: 0px 0px 20px gold;
@@ -34,7 +35,8 @@ canvas {
   margin-top: -40px;
 }
 
-.description_left p, .description_right p {
+.description_left p,
+.description_right p {
   color: white;
   font-size: 1.5rem;
   text-shadow: 0px 0px 20px white;
@@ -50,12 +52,14 @@ canvas {
   border-radius: 8px;
 }
 
-.description_left .content .year, .description_right .content .year {
+.description_left .content .year,
+.description_right .content .year {
   color: rgb(9, 230, 9);
   text-shadow: 0px 0px 20px rgb(9, 230, 9);
 }
 
-.description_left .content h4, .description_right .content h4 {
+.description_left .content h4,
+.description_right .content h4 {
   color: rgb(82, 19, 184);
   text-shadow: 0px 0px 20px rgb(82, 19, 184);
 }
@@ -88,4 +92,60 @@ canvas {
   text-shadow: 0px 0px 20px white;
 }
 
+.contact {
+  position: relative;
+  width: 82vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 7%;
+  margin-bottom: 7%;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
 
+.contact h2 {
+  color: gold;
+  font-size: 3rem;
+  text-shadow: 0px 0px 20px gold;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact .input-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .input-box .input-field {
+  position: relative;
+  width: 48%;
+  margin: .8rem 0;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    border-radius: .6rem;
+    border: .2rem solid rgb(10, 49, 223);
+    background-color: rgba(10, 198, 223, 0.6);
+}
+
+.contact form .btn-box.btns .btn {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: .6rem;
+  border: 2px solid rgb(10, 49, 223);
+  background-color: rgba(10, 198, 223, 0.6);
+  color: black;
+  font-weight: 900;
+  margin-top: 10px;
+}
